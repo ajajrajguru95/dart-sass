@@ -1,0 +1,15 @@
+@use "abstracts" as abs;
+@use "sass:map";
+
+$configVar: 15px !default;
+
+.banner{
+	color: abs.color(secondary,base);
+	background: {
+		color: abs.$testColor;
+		image: url('../images/test');
+		repeat: no-repeat;
+	}
+	padding-bottom: $configVar;
+
+}

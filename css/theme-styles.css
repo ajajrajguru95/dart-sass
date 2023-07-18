@@ -1,0 +1,50 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* ==========================================================================
+  Base Typography Styles
+  ========================================================================== */
+.color, .button, :where(h1, h2, h3, h4, h5, h6) {
+  color: red;
+}
+
+/* ==========================================================================
+   Headings and paragraph
+   ========================================================================== */
+:where(h1, h2, h3, h4, h5, h6) {
+  font-style: normal;
+}
+
+h1, .h1 {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+
+h2, .h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+/* ==========================================================================
+  COMMON VARIABLES
+  ========================================================================== */
+.button {
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+.banner {
+  color: #30ADE5;
+  background-color: red;
+  background-image: url("../images/test");
+  background-repeat: no-repeat;
+  padding-bottom: 18px;
+}
+
+.about {
+  font-size: 0.875rem;
+  line-height: 1.625rem;
+  color: #fff;
+}

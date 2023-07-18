@@ -1,0 +1,9 @@
+@use "abstracts/mixin" as mix;
+
+// Private variables
+$-white: #fff;
+
+.about{
+	@include mix.font-rem(14px,26px);
+	color: $-white;
+}

@@ -1,0 +1,7 @@
+
+@forward "base";
+@forward "components";
+@forward "pages" with (
+	$configVar: 18px,
+);
+

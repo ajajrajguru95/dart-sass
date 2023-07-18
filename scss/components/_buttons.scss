@@ -1,0 +1,12 @@
+@use "abstracts/variables" as btn;
+@use "abstracts/mixin" as mix;
+@use "base/typography" as typo;
+
+
+.button{
+	@extend .color;
+	padding: {
+      bottom: 0;
+      left: 0;
+    }
+}
